@@ -1,0 +1,19 @@
+<div [formGroup]="userFormGroup">
+
+<div class="signup--title">
+    <h2>Sign Up Page</h2>
+</div>
+<div class="signup__container">
+    <dlg-form-input id="first-name" formControlName="firstName">
+        First Name:
+    </dlg-form-input>
+    <dlg-form-input id="last-name" formControlName="lastName" >
+        Last Name:
+    </dlg-form-input>
+    <dlg-form-input id="email" formType="email" formControlName="emailInput" >
+        Email:
+    </dlg-form-input>
+    <dlg-button [isDisabled]="!userFormGroup.valid" buttonType="submit" (click)="onSubmit()">Submit</dlg-button>
+</div>
+
+</div>

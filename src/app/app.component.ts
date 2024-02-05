@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [RouterModule, BannerComponent],
   selector: 'dlg-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

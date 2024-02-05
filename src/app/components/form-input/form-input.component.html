@@ -1,0 +1,5 @@
+
+<label [class.form-input__label--disabled]="disabled" [for]="id"> <ng-content /></label>
+<input class="form-input__box" [class.form-input--disabled]="disabled"  #inputElement [type]="formType" [id]="id" [name]="id"  [value]="value"  (input)="handleInput($event)"
+(change)="handleInput($event)"
+(blur)="handleBlur()" >

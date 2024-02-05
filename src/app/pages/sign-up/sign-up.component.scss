@@ -1,0 +1,17 @@
+.signup--title {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup__container {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 2em;
+}
